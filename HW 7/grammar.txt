@@ -1,0 +1,5 @@
+Pointer::= + | - | < | > | UserInteraction | Loop | Pointer
+Pointer::= + Pointer | - Pointer | < Pointer | > Pointer | UserInteraction Pointer 
+Pointer::= Pointer Pointer | Pointer Pointer Pointer
+Loop::= [ Pointer Pointer Pointer ]
+UserInteraction::= , | .

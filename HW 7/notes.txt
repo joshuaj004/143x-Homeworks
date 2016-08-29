@@ -1,0 +1,9 @@
+notes.txt
+Grammar
+Break apart the rules and store them as a map
+if there are multiple lines of the same thing (eg. adj) concatanete them:
+	<adj>::=big|green|wonderful|faulty
+	<adj>::=subliminal|pretentious
+	::> <adj>::=big|green|wonderful|faulty|subliminal|pretentious
+Strip each individual word of leading and trailivng spaces 
+add them to a map
